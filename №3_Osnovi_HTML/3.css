@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+    width: 795px;
+    height: 718px;
+}
+.s1{
+    font-weight: bold;
+}
+.s2{
+    font-style:italic;
+}
