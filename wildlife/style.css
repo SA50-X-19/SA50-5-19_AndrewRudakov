@@ -1,0 +1,200 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper0 {
+    width: 762px;
+    background-color: gainsboro;
+    border: 3px solid dashed;
+}
+.wrapper {
+    width: 722px;
+    height: 681px;
+    background-color: lightgray;
+    margin: 0px 30px 0px 10px;
+    background-color: lightgray;
+    cursor: default;
+}
+.top {
+    height: 75px;
+    width: 722px;
+    padding-top: 50px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    height: 300px;
+    width: 722px;
+    margin-top: 50px;
+    padding-top: 75px;
+    display: -webkit-flex;
+    display: flex;
+}
+.bottom {
+    height: 90px;
+    width: 722px;
+    margin-top: -30px;
+    padding-top: -50px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.flex-top {
+    display: -webkit-flex;
+    -webkit-flex-direction: column; 
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.flex-tm1 {
+    font-size: 18pt;
+}
+.flex-tm2 {
+    font-size: 10pt;
+}
+.flex-content {
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 50px;
+}
+.flex-left {
+    width: 50px;
+    font-size: 30px;
+    text-align: start;
+}
+.flex-right {
+    width: 50px;
+    font-size: 30px;
+    text-align: start;
+}
+.flex-m1 {
+    background-image: url("images/Rectangle-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 180px;
+    margin-top: -75px;
+    margin-right: 30px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.flex-p1{
+    padding-top: 50px;
+    margin-bottom: 10px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+.flex-p2 {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+.flex-p3 {
+    padding-top: 100px;
+    margin-bottom: 10px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+.p11 {
+    padding-left: 30px;
+    font-size: 14px;
+    color: white;
+}
+.p12 {
+    font-size: 10px;
+    color: white;
+}
+.p21 {
+    padding-left: 50px;
+    font-size: 14px;
+    color: white;
+}
+.p22 {
+    padding-left: 30px;
+    font-size: 10px;
+    color: white;
+}
+.p31 {
+    padding-left: 60px;
+    font-size: 14px;
+    color: white;
+}
+.p32 {
+    padding-left: 40px;
+    font-size: 10px;
+    color: white;
+}
+.flex-m2 {
+    background-image: url(images/Rectangle-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 180px;
+    margin-top: -75px;
+    margin-right: 30px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.flex-m3 {
+    background-image: url(images/Rectangle-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 180px;
+    margin-top: -75px;
+    margin-right: 30px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.flex-bottom {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.flex-text {
+    font-size: 11pt;
+}
+.flex-mail {
+    margin-top: 5px;
+    height: 30px;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.flex-send {
+    border: 1px solid #CD6326;
+    background-color: #CD6326;
+    padding-top: 0.3em;
+    width: 50px;
+    color: white;
+    text-align: center;
+}
+#email {
+    font-size: 11pt;
+    text-align: start;
+}
